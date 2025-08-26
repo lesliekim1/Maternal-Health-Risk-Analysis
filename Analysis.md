@@ -2,7 +2,7 @@
 
 This file contains data analysis performed on the maternal health dataset to examine relationships between maternal risk levels, blood sugar, systolic blood pressure, and age.
 
-## 1. Box Plot Analysis
+## 1. Bar Plot Analysis
 **Goal**: Explore the distribution of blood sugar levels across maternal risk levels.
 
 **Steps**:
@@ -12,16 +12,16 @@ This file contains data analysis performed on the maternal health dataset to exa
 - Visualized the distribution using a bar plot.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/blood_sugar_barplot.png" width="500"/>
+  <img src="https://github.com/user-attachments/assets/198cabef-9735-4c4b-84a3-be0e7bd25857" width="500"/>
 </p>
 
-**Key Observations**:
+**Key Observations**
 - Low risk is associated with high blood sugar, but at lower frequency.
 - Medium risk is associated with low blood sugar at a medium frequency.
 - High risk is associated with both high frequency and high blood sugar.
 - Suggests that blood sugar is strongly related only to the high-risk group.
 
-## 2. Boxplot Analysis
+## 2. Side-by-Side Boxplots Analysis
 **Goal**: Compare systolic blood pressure across maternal risk levels.
 
 **Steps**:
@@ -29,8 +29,9 @@ This file contains data analysis performed on the maternal health dataset to exa
 - Generated side-by-side boxplots for `SystolicBP` by `RiskLevel`.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/systolic_bp_boxplot.png" width="500"/>
+  <img src="https://github.com/user-attachments/assets/5b97591f-a605-46dd-b465-cda3ead036c0" width="500"/>
 </p>
+
 
 **Key Observations**:
 - Maximum systolic blood pressure for low and medium risk groups are similar.
@@ -44,7 +45,11 @@ This file contains data analysis performed on the maternal health dataset to exa
 - Performed a linear regression with `SystolicBP` as the response variable and `Age` as the predictor.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/age_bp_regression.png" width="500"/>
+  <img src="https://github.com/user-attachments/assets/a75d3e30-8670-49a2-a651-d43f09982e16" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/76b7e4c0-59ce-4d19-b867-5926ec1926d3" width="500"/>
 </p>
 
 **Results**:
